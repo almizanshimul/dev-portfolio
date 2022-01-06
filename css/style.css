@@ -136,3 +136,29 @@ section{
     color: #333333;
     margin: 20px 0;
 }
+
+                /* Know our Global Community */
+
+#community{
+    background-image: url(../images/shapes/projets.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#community img{
+    width: 80%;
+}
+#community p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #333333;
+}
+
+.community{
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    line-height: 1.2;
+    font-size: 36px;
+    color: #333333;
+    margin: 20px 0;
+}
