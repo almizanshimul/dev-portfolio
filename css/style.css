@@ -79,7 +79,6 @@ section{
 }
 .head-mission > h2 > span{
     color: #FFAD5A;
-    font-size: 46px;
 }
 .col-mission{
     width: 33.33%;
@@ -107,14 +106,14 @@ section{
     padding:5% 8% 15% 8%;
     border-radius: 16px;
     background-color: #FFEEEE;
-    height: 500px;
+    height: 460px;
 }
 .mission-box2{
     width: 92%;
     padding:5% 8% 15% 8%;
     border-radius: 16px;
     background-color: #FFF4D6;
-    height: 500px;
+    height: 460px;
 }
 
                 /* Develop Without Limits */
@@ -185,7 +184,6 @@ section{
 }
 .head-service > h2 > span{
     color: #FFAD5A;
-    font-size: 46px;
 }
 .col-service{
     width: 33.33%;
@@ -235,3 +233,79 @@ footer > .content > p{
     font-family: 'poppins', sans-serif;
     color: #7D9FB9;
 }
+
+                /* Mobile view  */
+ @media screen and (max-width: 600px) {
+
+    .row{
+        flex-direction: column;
+    }
+    section{
+        padding: 20px 0 20px 0;
+    }
+    .container{
+        width: 400px;
+    }
+    .col{
+        width: 95%;
+        padding: 5%;
+    }
+
+    .h_stay{
+        font-size: 28px;
+    }   
+
+                                         /* our mission  */
+    .head-mission{
+    font-size: 24px;
+    }
+    h3{
+        font-size: 34px;
+    }
+    .col-mission{
+        width: 100%;
+        margin: 10px;
+    }
+    .col-mission > .mission-box{
+        width: 100%;
+        height: 500px;
+        padding: 0px;
+    }
+    .mission-box3{
+        width: 100%;
+        height: 500px;
+        padding: 0px;
+    }
+    .mission-box2{
+        width: 100%;
+        height: 500px;
+        padding: 0px;
+    }
+    .my-misssion .content{
+        padding: 15px;
+    }
+
+
+
+
+
+
+                                           /* Our services  */
+    .head-service{
+    font-size: 28px;
+    }
+    .col-service{
+        width: 99%;
+        margin: 10px;
+    }
+    .service-box{
+        height: 570px;
+        padding: 15px;
+    }
+
+    /* footer  */
+    footer > .content > p{
+        font-size: 15px;
+    }
+
+ }
